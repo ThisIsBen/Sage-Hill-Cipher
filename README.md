@@ -23,14 +23,14 @@ sage Q36064010.sage d Key.txt
 Both Encryption and Decryption is applied to the content stored in hillCipherInput.txt.
 
 ## What's special about this Hill Cipher?
-When I use the nxn Key matrix(n is a positive integer) to perform Encryption or Decryption, 
-It can handle the situation that the number of characters stored in hillCipherInput.txt can't be divided by n.
+**When I use the nxn Key matrix(n is a positive integer) to perform Encryption or Decryption, 
+It can handle the situation that the number of characters stored in hillCipherInput.txt can't be divided by n.**
 
 For example, if I use a 2x2 Key matrix like this,<br/>
 ![](./images/KeyMatrix.png)
-and the number of characters stored in hillCipherInput.txt can't be divided by 2 .(There are 3 characters per line)<br/>
+<br/>and the number of characters stored in hillCipherInput.txt can't be divided by 2 .(There are 3 characters per line)<br/>
 ![](./images/Plaintext.png)
-We append some spaces(' ') to the plaintext content of hillCipherInput.txt to make it be divided by 2.<br/>
+<br/>We append some spaces(' ') to the plaintext content of hillCipherInput.txt to make it be divided by 2.<br/>
 ![](./images/Encryption.png)
-Then we remove the spaces(' ') after decryption to restore the original plaintext.<br/>
+<br/>Then we remove the spaces(' ') after decryption to restore the original plaintext.<br/>
 ![](./images/Decryption.png)
