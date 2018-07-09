@@ -12,12 +12,12 @@ file into blocks and encrypt them separately.
 
 ## Perform Encryption
 ```
-sage Q36064010.sage e Key.txt
+sage hillCipher.sage e Key.txt
 ```
 
 ## Perform Decryption
 ```
-sage Q36064010.sage d Key.txt
+sage hillCipher.sage d Key.txt
 ```
 
 Both Encryption and Decryption is applied to the content stored in hillCipherInput.txt.
