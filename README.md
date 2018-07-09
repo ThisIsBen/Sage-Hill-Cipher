@@ -7,7 +7,7 @@ This program is able to do the following:<br/>
 2) Read a text file,e.g.,'plainText.txt', encrypt its content, and save the result in another file. The program will  partition the
 file into blocks and encrypt them separately.<br/>
 3) Restore the ciphertext file,e.g.,'cipherText.txt', back to plaintext.<br/>
-### 4) The program is able to handle all the ASCII code characters ###
+#### 4. The program is able to handle all the ASCII code characters ####
 
 ## Perform Encryption
 ```
