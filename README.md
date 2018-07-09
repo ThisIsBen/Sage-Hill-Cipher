@@ -27,10 +27,10 @@ Both Encryption and Decryption is applied to the content stored in hillCipherInp
 It can handle the situation that the number of characters stored in hillCipherInput.txt can't be divided by n.**
 
 For example, if I use a 2x2 Key matrix like this,<br/>
-![](./images/KeyMatrix.png)
+![](./images/KeyMatrix.png)<br/>
 <br/>and the number of characters stored in hillCipherInput.txt can't be divided by 2 .(There are 3 characters per line)<br/>
-![](./images/Plaintext.png)
+![](./images/Plaintext.png)<br/>
 <br/>We append some spaces(' ') to the plaintext content of hillCipherInput.txt to make it be divided by 2.<br/>
-![](./images/Encryption.png)
+![](./images/Encryption.png)<br/>
 <br/>Then we remove the spaces(' ') after decryption to restore the original plaintext.<br/>
-![](./images/Decryption.png)
+![](./images/Decryption.png)<br/>
