@@ -1,8 +1,8 @@
 # Sage-Hill-Cipher
-The goal of this program is to implement Hill Cipher using Sage. 
-Sage is a powerful mathematic software which can compute matrix determinants and inverses. 
-What's more, you can write Python code and call Sage's function in a sage program,which is really helpful and useful.
-This program is able to do the following:
+**The goal of this program is to implement Hill Cipher using Sage.** <br/>
+Sage is a powerful mathematic software which can compute matrix determinants and inverses. <br/>
+What's more, you can write Python code and call Sage's function in a sage program,which is really helpful and useful.<br/>
+This program is able to do the following:<br/>
 1) Read the Key matrix from a text file, e.g.,'Key.txt'. **The key can be a matrix of any dimension (nxn).**
 2) Read a text file,e.g.,'plainText.txt', encrypt its content, and save the result in another file. The program will  partition the
 file into blocks and encrypt them separately.
