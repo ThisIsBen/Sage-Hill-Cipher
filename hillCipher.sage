@@ -70,10 +70,10 @@ def ReadHillCipherKey(keyFileName):
 
 #Define the input file name
 #hillCipherInputFile="hillCipherOutputBen.txt"
-hillCipherInputFile="hillCipherInput.txt"
+hillCipherInputFile=sys.argv[3]
 
 # Check the arguments
-if (len(sys.argv) != 3) or (sys.argv[1] not in ["d", "e"]):
+if (len(sys.argv) != 4) or (sys.argv[1] not in ["d", "e"]):
 	print "Usage: %s e/d key_file"%sys.argv[0]
 	print "Encrypt/decrypt a text file using Hill Cipher"
 	sys.exit	
