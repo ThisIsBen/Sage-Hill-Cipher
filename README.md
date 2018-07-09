@@ -12,15 +12,23 @@ file into blocks and encrypt them separately.
 
 ## Perform Encryption
 ```
-sage hillCipher.sage e Key.txt
+sage hillCipher.sage e [key matrix file] [plaintext file]
+```
+e.g.,
+```
+sage hillCipher.sage e Key.txt plainText.txt
 ```
 
 ## Perform Decryption
 ```
-sage hillCipher.sage d Key.txt
+sage hillCipher.sage d [key matrix file] [ciphertext file]
+```
+e.g.,
+```
+sage hillCipher.sage d Key.txt cipherText.txt
 ```
 
-Both Encryption and Decryption is applied to the content stored in hillCipherInput.txt.
+Both Encryption and Decryption will create a text file ,'hillCipherOutput.txt', and store the result in it.
 
 ## What's special about this Hill Cipher?
 **When I use the nxn Key matrix(n is a positive integer) to perform Encryption or Decryption, 
