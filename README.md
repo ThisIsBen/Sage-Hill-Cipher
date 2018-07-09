@@ -34,3 +34,4 @@ We append some spaces(' ') to the plaintext content of hillCipherInput.txt to ma
 ![](https://github.com/ThisIsBen/Sage-Hill-Cipher/images/Encryption.png)
 Then we remove the spaces(' ') after decryption to restore the original plaintext.
 ![](https://github.com/ThisIsBen/Sage-Hill-Cipher/images/Decryption.png)
+![](https://github.com/gnawice/mojo-cnn/wiki/images/cifar_log.png)
