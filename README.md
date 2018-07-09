@@ -29,9 +29,8 @@ It can handle the situation that the number of characters stored in hillCipherIn
 For example, if I use a 2x2 Key matrix like this,
 ![](./images/KeyMatrix.png)
 and the number of characters stored in hillCipherInput.txt can't be divided by 2 .(There are 3 characters per line) 
-![](https://github.com/ThisIsBen/Sage-Hill-Cipher/images/Plaintext.png)
+![](./images/Plaintext.png)
 We append some spaces(' ') to the plaintext content of hillCipherInput.txt to make it be divided by 2.
-![](https://github.com/ThisIsBen/Sage-Hill-Cipher/images/Encryption.png)
+![](./images/Encryption.png)
 Then we remove the spaces(' ') after decryption to restore the original plaintext.
-![](https://github.com/ThisIsBen/Sage-Hill-Cipher/images/Decryption.png)
-![](https://github.com/gnawice/mojo-cnn/wiki/images/cifar_log.png)
+![](./images/Decryption.png)
