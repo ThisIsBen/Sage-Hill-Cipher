@@ -4,10 +4,10 @@ Sage is a powerful mathematic software which can compute matrix determinants and
 So you do not need to implement those functions
 yourselves. 
 This program is able to do the following:
-1) Read the key from a text file. The key can be a matrix of any dimension (nxn).
-2) Read a text file, encrypt its content, and save the result in another file. The program will  partition the
+1) Read the Key matrix from a text file, 'Key.txt'. The key can be a matrix of any dimension (nxn).
+2) Read a text file,'hillCipherInput.txt', encrypt its content, and save the result in another file. The program will  partition the
 file into blocks and encrypt them separately.
-3) Restore the cipher text file back to plaintext
+3) Restore the ciphertext file back to plaintext
 4) The program is able to handle all the ASCII code characters
 
 ## Perform Encryption
